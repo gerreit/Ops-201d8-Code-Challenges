@@ -6,11 +6,14 @@
 # Purpose:                    Shows the login history of computer and text that "This is the login history"
 
 # Basic function
-print_something () {
-  last
+history () {
+  last -a
+  echo
+  echo "This is the login history"
 }
-print_something
-print_something
-print_something
-echo
-echo "This is the login history"
+
+history
+history
+history
+
+#end
