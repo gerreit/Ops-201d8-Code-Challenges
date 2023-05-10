@@ -11,6 +11,7 @@
 
 #Main
 
+#This is originally supposed to backup Jorge's file to another drive with the robocopy command however I no longer have the VM from that class
 robocopy C:\Users\J.thompson\Desktop\WorkFiles C:\Users\J.thompson\Documents /E
 
 #End
