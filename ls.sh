@@ -19,6 +19,9 @@
 #sudo lshw
 #sudo lshw -class cpu | grep -v ${cpu[@]}
 #sudo lshw -class cpu | grep -v "capabilities"; grep -v "width"
+echo "Computer Name"
+hostname
+echo
 echo "CPU"
 sudo lshw -class cpu | grep "product\|vendor\|physical id\| bus info\|width"
 echo
