@@ -14,7 +14,7 @@
 #history () {
   #last -a
   #echo "This is login history"
-}
+#}
 
 
 #Main
